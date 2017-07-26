@@ -1,0 +1,36 @@
+#head{background-color:#fd7043;min-height:700px;height:100vh}
+#head .gray-stripe{background-color:#b7a5a5;min-height:700px;height:100vh;position:relative;z-index:5;text-align:center}
+#head .gray-stripe .logo{font-size:26px;font-family:"Open Sans",sans-serif;color:#fff;padding-top:50px;border-bottom:1px solid #fff;padding-bottom:20px;display:inline-block}
+#head .gray-stripe .menu{text-align:left}
+#head .gray-stripe .menu ul{list-style-type:none;margin-left:15%;margin-top:20px}
+#head .gray-stripe .menu ul li{color:#fff;font-size:18px;font-family:"Open Sans",sans-serif;text-transform:uppercase;padding:12px 0}
+#head .gray-stripe .menu ul li a{color:#fff}
+#head .gray-stripe .menu ul li a:focus,#head .gray-stripe .menu ul li a:hover{color:#fd5b28;text-decoration:underline}
+#head .phone{display:block;position:absolute;right:12%;top:50px;z-index:15;font-size:26px;font-family:"Open Sans",sans-serif;color:#fff}
+#head .photo{display:block}
+#head .photo img{position:absolute;left:30%;bottom:0;z-index:15}
+#head .titl{z-index:20;position:relative;margin-top:85%;text-align:center}
+#head .titl h1{font-family:"Open Sans",sans-serif;text-transform:uppercase;font-size:40px;color:#ff3a27;text-align:center;line-height:60px}
+#head .titl .wrapper-btn{display:block}
+#head .titl .wrapper-btn button{position:absolute;bottom:0;border:1px solid #fd5b28;background-color:#fff;padding:15px 35px;font-family:"Open Sans",sans-serif;font-size:16px;text-transform:uppercase;color:#fd5b28}
+#head .titl .wrapper-btn button:focus,#head .titl .wrapper-btn button:hover{border:1px solid #fd5b28;background-color:#fd5b28;color:#fff}
+.box{border:1px solid #ccc;padding:10px;border-radius:5px;font:16px/24px Arial;background:gray;height:200px}
+.adaptive_item{background:red}
+.adaptive_box{margin-left:-8.33333%}
+.test{color:red}
+.keks{color:orange}
+#shapka{background:url(../img/bg-8.jpg) no-repeat center center;min-height:700px;height:100vh}
+#shapka .left-strip{background-color:rgba(183,165,165,.85);height:100vh;text-align:center}
+#shapka .left-strip .logo{font-size:26px;font-family:"Open Sans",sans-serif;color:#fff;padding-top:50px;border-bottom:1px solid #fff;padding-bottom:20px;display:inline-block}
+#shapka .left-strip .menu{text-align:left}
+#shapka .left-strip .menu ul{list-style-type:none;margin-left:15%;margin-top:20px}
+#shapka .left-strip .menu ul li{color:#fff;font-size:18px;font-family:"Open Sans",sans-serif;text-transform:uppercase;padding:12px 0}
+#shapka .left-strip .menu ul li a{color:#fff}
+#shapka .left-strip .menu ul li a:focus,#shapka .left-strip .menu ul li a:hover{color:#fd5b28;text-decoration:underline}
+#shapka .right-strip{background:url(../img/sgeg-1.png) no-repeat left bottom;height:100vh;margin-left:-18%}
+#shapka .right-strip .phone{text-align:right;padding-top:50px;font-size:26px;font-family:"Open Sans",sans-serif;color:#fff}
+#shapka .right-strip .ttl{margin-top:50%}
+#shapka .right-strip .ttl h1{font-family:"Open Sans",sans-serif;text-transform:uppercase;font-size:40px;color:#ff3a27;text-align:center;line-height:60px;margin:20%}
+#shapka .right-strip .btn{display:block}
+#shapka .right-strip .btn button{position:absolute;bottom:5%;border:1px solid #fd5b28;background-color:#fff;padding:15px 35px;font-family:"Open Sans",sans-serif;font-size:16px;text-transform:uppercase;color:#fd5b28}
+#shapka .right-strip .btn button:focus,#shapka .right-strip .btn button:hover{border:1px solid #fd5b28;background-color:#fd5b28;color:#fff}

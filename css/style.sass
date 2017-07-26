@@ -1,0 +1,136 @@
+*, *::after, *::before
+	box-sizing: border-box
+
+.html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.5
+	font-family: 'Open Sans', sans-serif
+	overflow-x: hidden
+	opacity: 1	
+
+@media only screen and (min-width: 1050px)
+	body[data-hijacking="on"]
+		overflow: hidden	
+
+.cd-section
+	.one-box
+		background-color: #161c45	
+		height: 100vh	
+		min-height: 700px
+		background-image: url("../img/my-photo-7-1980.jpg")
+	&:first-of-type > div
+
+	.two-box		
+		background-color: #2e5367	
+		height: 100vh	
+		min-height: 700px
+		background-image: url("../img/my-photo-1-1980.jpg")
+	&:nth-of-type(2) > div
+
+.cd-section > div
+	background-position: center center
+	background-repeat: no-repeat
+	background-size: cover
+
+.cd-vertical-nav
+	position: fixed
+	z-index: 10
+	right: 3%
+	top: 50%
+	bottom: auto
+	-webkit-transform: translateY(-50%)
+	-moz-transform: translateY(-50%)
+	-ms-transform: translateY(-50%)
+	-o-transform: translateY(-50%)
+	transform: translateY(-50%)
+	display: none
+
+.cd-vertical-nav a
+	display: block
+	height: 40px
+	width: 40px
+	/* image replace */
+	overflow: hidden
+	text-indent: 100%
+	white-space: nowrap
+	background: url(../img/cd-icon-arrow.svg) no-repeat center center
+
+.cd-vertical-nav a.cd-prev
+	-webkit-transform: rotate(180deg)
+	-moz-transform: rotate(180deg)
+	-ms-transform: rotate(180deg)
+	-o-transform: rotate(180deg)
+	transform: rotate(180deg)
+	margin-bottom: 10px
+
+.cd-vertical-nav a.inactive
+	visibility: hidden
+	opacity: 0
+	-webkit-transition: opacity 0.2s 0s, visibility 0s 0.2s
+	-moz-transition: opacity 0.2s 0s, visibility 0s 0.2s
+	transition: opacity 0.2s 0s, visibility 0s 0.2s
+
+#head
+	height: 100vh
+	.top-mnu
+		.logo
+			width: 55%
+			margin: 30px 5%
+		.menu
+			text-align: center
+			ul
+				list-style-type: none
+				margin-top: 40px
+				display: inline-block
+				li
+					font-size: 16px
+					font-family: 'Open Sans', sans-serif
+					text-transform: uppercase
+					padding: 12px 25px
+					display: inline-block
+					a
+						color: #fff
+						&:hover
+							color: #ef7f1a
+		.phone
+			font-size: 26px
+			font-family: 'Open Sans', sans-serif
+			color: #ef7f1a		
+			margin: 45px 5% 5% 0
+			text-align: right		
+
+	.box-content
+		h2
+			margin: 10px 0 0 0
+			padding: 0px 50px 20px 40px
+			color: #ef7f1a	
+			text-transform: uppercase
+		p
+			padding: 0 40px
+			color: #fff		
+			line-height: 1.7
+			font-size: 15px	
+	.wrapper-btn
+		text-align: center
+		margin-top: 50px
+		button
+			background-color: #ef7f1a
+			padding: 12px 30px
+			font-family: 'Open Sans', sans-serif
+			font-size: 14px
+			text-transform: uppercase
+			color: #fff
+			border: none
+			&:focus, &:hover
+				background-color: #fff
+				color: #ef7f1a	
+
+
+			
+		
+	
